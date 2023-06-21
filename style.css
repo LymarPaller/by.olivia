@@ -2,5 +2,39 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    --font-heading: 
+    --bgmain: #ffe9d1;
+    --main-color: #fe9e7b;
+    --secondary-color: #fff4d1;
+    --accent-color: #fee07b;
+}
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: var(--main-color);
+}
+
+header img {
+    margin-block: 1rem;
+}
+
+.services-container {
+    background-color: var(--secondary-color);
+}
+
+.welcome-salon-container {
+    background-color: none;
+}
+
+.testimonial-container {
+    background-color: var(--main-color);
+}
+
+.stay-in-touch-container {
+    background-color: none;
+}
+
+footer {
+    background-color: var(--main-color);
 }

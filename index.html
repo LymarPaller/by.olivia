@@ -6,15 +6,17 @@
     <title>by: Olivia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="container-fluid">
+<body>
+
     <header class="container-fluid d-lg-flex">
         <div class="navbar navbar-expand-lg">
-            <img src="./photos/logo-by-oilvia.png" width="150rem">
+            <img src="./photos/logo-by-oilvia.svg" width="150rem" class=".logo-main">
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-main" aria-controls="nav-var-main" aria-expanded="false" aria-label="Toggle Nav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="btn-outline-light navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-main" aria-controls="nav-var-main" aria-expanded="false" aria-label="Toggle Nav">
+                <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="nav-bar-main">
                 <ul class="navbar-nav">
@@ -30,7 +32,7 @@
         </div>
     </header>
 
-    <main class="container-fluid">
+    <main>
 
         <div class="container-fluid d-flex justify-content-evenly">
             <div>
@@ -42,7 +44,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="services-container">
             <div>
                 <h2>Services</h2>
             </div>
@@ -90,69 +92,69 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+        </div>
 
-            <div class="container">
-                <div>
-                    <h1>Welcome to my Salon</h1>
-                </div>
-
-                <div>
-                    <p>Welcome to our online beauty sanctuary, specializing in wedding, event, and home services. We bring the salon experience to you, ensuring you look and feel stunning on your special day. Explore our range of hair, makeup, and nail services and let us create enchanting memories together. Convenient, flexible, and tailored to your unique preferences, our team is dedicated to making your beauty journey unforgettable.</p>
-                </div>
+        <div class="welcome-salon-container">
+            <div>
+                <h1>Welcome to my Salon</h1>
             </div>
 
             <div>
-                <div>
-                    <h1>Testimonials</h1>
-                </div>
+                <p>Welcome to our online beauty sanctuary, specializing in wedding, event, and home services. We bring the salon experience to you, ensuring you look and feel stunning on your special day. Explore our range of hair, makeup, and nail services and let us create enchanting memories together. Convenient, flexible, and tailored to your unique preferences, our team is dedicated to making your beauty journey unforgettable.</p>
+            </div>
+        </div>
 
-                <div id="carousel-testimonial" class="carousel slide">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carousel-testimonial" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carousel-testimonial" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carousel-testimonial" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./photos/picture4.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-md-block">
-                          <p>Some representative placeholder content for the first slide.</p>
-                          <p>name of customer</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./photos/picture5.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-md-block">
-                          <p>Some representative placeholder content for the second slide.</p>
-                          <p>name of customer</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./photos/picture6.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-md-block">
-                          <p>Some representative placeholder content for the third slide.</p>
-                          <p>name of customer</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+        <div class="testimonial-container container">
+            <div>
+                <h1>Testimonials</h1>
             </div>
 
-            <div>
-                <div>
-                    <h1>Stay in Touch</h1>
-                    <p>Elevate Your Beauty Experience: Contact Us Today for Bespoke Make-Up and Hair Artistry!</p>
+            <div id="carousel-testimonial" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-testimonial" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-testimonial" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-testimonial" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./photos/picture4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block d-md-block">
+                      <p>Some representative placeholder content for the first slide.</p>
+                      <p>name of customer</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./photos/picture5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block d-md-block">
+                      <p>Some representative placeholder content for the second slide.</p>
+                      <p>name of customer</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./photos/picture6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-block d-md-block">
+                      <p>Some representative placeholder content for the third slide.</p>
+                      <p>name of customer</p>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="stay-in-touch-container">
+            <div>
+                <h1>Stay in Touch</h1>
+                <p>Elevate Your Beauty Experience: Contact Us Today for Bespoke Make-Up and Hair Artistry!</p>
             </div>
         </div>
 
