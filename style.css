@@ -109,3 +109,12 @@ p {
 footer {
     background-color: var(--main-color);
 }
+
+footer li {
+    list-style: none;
+}
+
+/* footer li a {
+    color: black;
+    text-decoration: none;
+} */
