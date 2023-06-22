@@ -46,12 +46,26 @@ h1 {
     color: var(--main-color);
 }
 
+h5 {
+    font-family: var(--main-font);
+    font-weight: 500;
+    color: white;
+}
+
 p {
     font-family: var(--body-font);
 }
 
 .services-container {
     background-color: var(--secondary-color);
+}
+
+.carousel-caption {
+    position: relative;
+    right: 0%;
+    left: 0%;
+    height: 40vw;
+    background-color: var(--main-color);
 }
 
 .welcome-salon-container {
