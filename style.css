@@ -36,6 +36,20 @@ header img {
     color: white;
 }
 
+.profile-container {
+    background-color: none;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+p {
+    font-family: var(--body-font);
+}
+
 .services-container {
     background-color: var(--secondary-color);
 }
