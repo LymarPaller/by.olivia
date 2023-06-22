@@ -69,7 +69,33 @@ p {
 }
 
 .welcome-salon-container {
-    background-color: none;
+    background-image: url(./photos/profile-pic-transparent.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: right;
+    background-size: 50vh;
+}
+
+.welcome-text {
+    margin-left: 5vw;
+}
+
+.welcome-salon-container > .welcome-text h1::after {
+    content: '';
+    width: 60%;
+    height: .5vh;
+    display: block;
+    background: var(--main-color);
+    margin-top: 2vh;
+}
+
+.welcome-salon-container p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    background-color: var(--secondary-color);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .testimonial-container {
