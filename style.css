@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Barlow:wght@400;600&family=Montserrat:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,10 +8,11 @@
     --main-color: #fe9e7b;
     --secondary-color: #fff4d1;
     --accent-color: #fee07b;
-    --main-font: "Barlow+Condensed:wght@400";
-    --secondary-font: "BarlowCondensed 500";
+    --main-font: "Barlow";
+    --secondary-font: "Barlow Condensed";
     --body-font: "Montserrat";
 }
+
 body {
     background-color: antiquewhite;
     font-family: var(--body-font);
@@ -44,4 +45,3 @@ header img {
 footer {
     background-color: var(--main-color);
 }
-
