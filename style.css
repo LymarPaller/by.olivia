@@ -112,8 +112,5 @@ footer {
 
 footer li {
     list-style: none;
+    font-size: .8rem;
 }
-
-/* .footer-container .footer-list {
-    padding-left: 0;
-} */
