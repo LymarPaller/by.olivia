@@ -119,3 +119,17 @@ footer li {
     list-style: none;
     font-size: .8rem;
 }
+
+.btn {
+    background-color: var(--accent-color);
+    color: black;
+}
+
+
+.carousel-control-prev-icon {
+    background-color: var(--accent-color);
+}
+
+.carousel-control-next-icon {
+    background-color: var(--accent-color);
+}
