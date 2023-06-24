@@ -132,8 +132,20 @@ footer li {
     margin-top: 1.4rem;
 }
 
-.about-us h1 {
-    text-align: center;
+.photo-gallery h1::after {
+    content: '';
+    width: 60vw;
+    height: .5vh;
+    display: block;
+    background: var(--main-color);
+    margin-top: 2vh;
+
+    transform: scaleX(0);
+    transition: transform .5s ease-in-out;
+}
+
+main:hover .photo-gallery h1::after {
+    transform: scaleX(1);
 }
 
 .about-us h1::after {
@@ -265,9 +277,18 @@ main:hover .about-us h1::after {
         color: white;
     }
 
+    .photo-gallery {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
+    .about-us {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
     .about-us p {
         margin-left: 10vw;
-        
         margin-right: 10vw;
     }
 
@@ -275,5 +296,17 @@ main:hover .about-us h1::after {
         margin-top: 15vh;
         margin-bottom: 15vh;
     }
+
+    .about-us h1::after {
+        content: '';
+        width: 25vw;
+    }
+
+    .photo-gallery h1::after {
+        content: '';
+        width: 25vw;
+    }
+
+
 
 }
