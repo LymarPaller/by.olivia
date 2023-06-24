@@ -25,7 +25,7 @@
                             <li class="nav-item col"><a href="#" class="nav-link">Home</a></li>
                             <li class="nav-item col"><a href="#" class="nav-link">Gallery</a></li>
                             <li class="nav-item col"><a href="#" class="nav-link">About Us</a></li>
-                            <li class="nav-item col"><a href="#" class="nav-link">Message Us</a></li>
+                            <li class="nav-item col"><a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#message-us-modal">Message Us</a></li>
                         </div>
                     </ul>
                 </div>
@@ -34,6 +34,36 @@
     </header>
 
     <main>
+
+        <!-- MODAL PROMPT -->
+
+        <div class="modal fade" id="message-us-modal" tabindex="-1" aria-labelledby="message-us-modal-label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="message-us-modal-label">Message Us</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" class="form-subscribe">
+                        <div class="form-bar">
+                            <input type="text" name="full-name" id="full-name" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-bar mt-1">
+                            <input type="text" name="mobile-number" id="mobile-number" class="form-control" placeholder="Mobile Number">
+                        </div>
+                        <div class="fomr-text-bar mt-1">
+                            <label for="text-area" class="form-label">Message</label>
+                            <textarea class="form-control" name="text-area" id="text-area" cols="30" rows="5" placeholder="...message here.."></textarea>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div class="profile-container container-fluid d-flex justify-content-sm-evenly justify-content-md-center pt-4">
             <div class="d-flex flex-column justify-content-center">
