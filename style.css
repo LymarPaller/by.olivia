@@ -20,6 +20,7 @@ body {
 
 header {
     background-color: var(--main-color);
+    box-shadow: 0 0 10px 1px #a85334;
 }
 
 header img {
@@ -68,6 +69,7 @@ p {
 
 .services-container {
     background-color: var(--secondary-color);
+    box-shadow: 0 2px 20px 0px #a85334;
 }
 
 .carousel-caption {
@@ -106,6 +108,7 @@ p {
 
 .testimonial-container {
     background-color: var(--main-color);
+    box-shadow: 0 0 20px 1px #a85334;
 }
 
 .stay-in-touch-container {
@@ -114,6 +117,7 @@ p {
 
 footer {
     background-color: var(--main-color);
+    box-shadow: 0 0 20px 1px #a85334;
 }
 
 footer li {
@@ -124,4 +128,9 @@ footer li {
 .btn {
     background-color: var(--accent-color);
     color: black;
+}
+
+
+@media screen and (min-width: 720px) {
+    
 }
