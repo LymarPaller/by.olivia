@@ -37,6 +37,10 @@ header img {
     color: white;
 }
 
+.nav-item {
+    font-size: .8rem;
+}
+
 .nav-link:hover {
     text-shadow: 0 0 5px white;
     /* color: var(--accent-color); */
@@ -126,6 +130,11 @@ footer li {
 
 
 @media screen and (min-width: 720px) {
+
+    .nav-item {
+        width: 10vw;
+        font-size: 1rem;
+    }    
 
     header  {
         justify-content: center;
