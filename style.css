@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: var(--bgmain);
     font-family: var(--body-font);
 }
 
@@ -32,8 +32,13 @@ header img {
     font-weight: 600;
 }
 
-.nav-link:hover {
+.navbar .nav-link {
     color: white;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 5px white;
+    /* color: var(--accent-color); */
 }
 
 .profile-container {
@@ -119,13 +124,4 @@ footer li {
 .btn {
     background-color: var(--accent-color);
     color: black;
-}
-
-
-.carousel-control-prev-icon {
-    background-color: var(--accent-color);
-}
-
-.carousel-control-next-icon {
-    background-color: var(--accent-color);
 }
