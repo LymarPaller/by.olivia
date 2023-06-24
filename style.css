@@ -213,4 +213,22 @@ footer li {
         width: 25vw;
     }
 
+    footer .form-subscribe .form-bar{
+        width: 20vw;
+    }
+
+    footer .col-6 {
+        color: white;
+        padding-left: 2rem;
+    }
+
+    footer li {
+        font-size: 1rem;
+        color: white;
+    }
+
+    footer p {
+        font-size: 1rem;
+        color: white;
+    }
 }
