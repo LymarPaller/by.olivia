@@ -186,4 +186,16 @@ footer li {
         font-size: 1.5rem;
     }
 
+    .testimonial-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .carousel-testimonial {
+        width: 30vw;
+        margin-top: 10vh;
+    }
+
 }
