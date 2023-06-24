@@ -155,6 +155,11 @@ footer li {
         height: 20vh;
     }
 
+    .services-cards-carousel .card-body{
+        background-color: var(--main-color);
+
+    }
+
     .welcome-salon-container {
         padding-top: 25vh;
         padding-bottom: 25vh;
@@ -168,10 +173,6 @@ footer li {
         background-size: cover;
         background-position-y: bottom;
     }
-
-    /* .welcome-text {
-        width: fit-content;
-    } */
 
     .welcome-salon-paragraph {
         width: 50vw;
