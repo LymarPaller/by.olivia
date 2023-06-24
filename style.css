@@ -95,8 +95,6 @@ p {
 }
 
 .welcome-salon-container p {
-    display: flex;
-    flex-wrap: wrap;
     background-color: var(--secondary-color);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -144,7 +142,6 @@ footer li {
         width: 70vw;
     }
 
-
     .profile-container {
         display: flex;
         justify-content: center;
@@ -159,12 +156,26 @@ footer li {
     }
 
     .welcome-salon-container {
-        margin-top: 25vh;
-        margin-bottom: 25vh;
+        padding-top: 25vh;
+        padding-bottom: 25vh;
+        display: flex;
+        box-sizing: border-box;
     }
+
+    .welcome-salon-background {
+        background-image: url(./photos/bg-welcome2.png);
+        background-repeat: none;
+        background-size: cover;
+        background-position-y: bottom;
+    }
+
+    /* .welcome-text {
+        width: fit-content;
+    } */
 
     .welcome-salon-paragraph {
         width: 50vw;
-        height: 25vh;
+        font-size: 1.5rem;
     }
+
 }
