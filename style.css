@@ -132,6 +132,26 @@ footer li {
     margin-top: 1.4rem;
 }
 
+.about-us h1 {
+    text-align: center;
+}
+
+.about-us h1::after {
+    content: '';
+    width: 60vw;
+    height: .5vh;
+    display: block;
+    background: var(--main-color);
+    margin-top: 2vh;
+
+    transform: scaleX(0);
+    transition: transform .5s ease-in-out;
+}
+
+main:hover .about-us h1::after {
+    transform: scaleX(1);
+}
+
 
 @media screen and (min-width: 720px) {
 
@@ -244,4 +264,16 @@ footer li {
         font-size: 1rem;
         color: white;
     }
+
+    .about-us p {
+        margin-left: 10vw;
+        
+        margin-right: 10vw;
+    }
+
+    .about-us {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
 }
