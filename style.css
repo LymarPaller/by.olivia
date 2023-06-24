@@ -145,6 +145,13 @@ footer li {
     .profile-container {
         display: flex;
         justify-content: center;
+        margin-top: 5vh;
+    }
+
+    .profile-container img {
+        width: 30vw;
+        margin-left: 5vw;
+
     }
 
     .carousel-box {
