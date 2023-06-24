@@ -132,6 +132,22 @@ footer li {
 
 
 @media screen and (min-width: 720px) {
+
+    header  {
+        justify-content: center;
+    }
+
+    header .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .navbar .navbar-nav {
+        display: flex;
+        justify-content: end;
+        width: 70vw;
+    }
+
     .carousel-box {
         width: 50vw;
     }
