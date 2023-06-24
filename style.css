@@ -42,10 +42,6 @@ header img {
     /* color: var(--accent-color); */
 }
 
-.profile-container {
-    background-color: none;
-}
-
 h1 {
     font-family: var(--secondary-font);
     font-weight: 500;
@@ -146,6 +142,12 @@ footer li {
         display: flex;
         justify-content: end;
         width: 70vw;
+    }
+
+
+    .profile-container {
+        display: flex;
+        justify-content: center;
     }
 
     .carousel-box {
