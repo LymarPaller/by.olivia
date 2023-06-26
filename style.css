@@ -168,6 +168,9 @@ main:hover .about-us h1::after {
     transform: scaleX(1);
 }
 
+.btn-hover:hover {
+    background-color: var(--main-color);
+}
 
 @media screen and (min-width: 720px) {
 
