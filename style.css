@@ -247,6 +247,11 @@ main:hover .about-us h1::after {
         margin-top: 10vh;
     }
 
+    .stay-in-touch-container {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
     .stay-in-touch-container .container-sub {
         width: 50vw;
         display: flex;
