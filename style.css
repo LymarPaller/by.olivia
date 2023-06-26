@@ -67,6 +67,10 @@ p {
     font-family: var(--body-font);
 }
 
+.input-group button{
+    font-size: .8rem;
+}
+
 .services-container {
     background-color: var(--secondary-color);
     box-shadow: 0 2px 20px 0px #a85334;
@@ -309,5 +313,10 @@ main:hover .about-us h1::after {
         content: '';
         width: 25vw;
     }
+
+    .input-group button{
+        font-size: 1rem;
+    }
+    
 
 }
